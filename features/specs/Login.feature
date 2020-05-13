@@ -26,7 +26,7 @@ Funcionalidade: Login Crowdsourced Auditeste
 		| 'veron.oliveira@auditeste.com.br' | 'incorreta'  | 'Senha não Localizada'  |
 		| 'veron.errado@auditeste.com.br'   | 'auditeste'  | 'E-mail não Localizado' |
 
-@dadosObrigatorio
+@dadosObrigatorios
 	Esquema do Cenario: Dados em branco
 		Dado que na tela de login
 		Quando preencher o <email> e <senha>
