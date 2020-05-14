@@ -1,0 +1,4 @@
+default: -p html -p json 
+
+html: --no-source --color --format pretty --format html --out=reports/relatorio.html
+json: -f json -o reports/relatorio.json
